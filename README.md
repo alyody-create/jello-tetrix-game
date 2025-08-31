@@ -9,13 +9,15 @@ The previous build error has been resolved. The game is now ready for deployment
 ## Features
 
 - 🎮 Classic Tetris gameplay with modern twists
-- 🟢 Jello/soft-body physics effects
+- 🟢 **Enhanced Jello Physics**: Blocks jiggle and wobble when they collide!
 - 🎨 Beautiful, responsive UI with particle effects
 - 📱 Mobile-friendly controls
+- 🔲 **Fullscreen Mode**: Immersive full-screen gameplay
 - 🎵 Configurable settings (volume, particles, difficulty)
 - 🏆 Easter egg for high scores (beat 15,852 points!)
 - ⚡ Optimized for smooth performance
 - 🆓 Completely free to play
+- 👨‍💻 **Made by Carter Concessio**
 
 ## Controls
 
@@ -23,7 +25,15 @@ The previous build error has been resolved. The game is now ready for deployment
 - **Space**: Hard drop
 - **R**: Restart game
 - **P**: Pause/Resume
+- **Fullscreen Button**: Toggle fullscreen mode (⛶)
 - **Mobile**: Touch buttons at bottom of screen
+
+## ✨ **New Jello Physics Features**
+
+- **Collision Jiggle**: When blocks collide, surrounding blocks wobble and jiggle
+- **Enhanced Particles**: Collision particles with different colors for different actions
+- **Visual Feedback**: Blocks flash and brighten during jello effects
+- **Realistic Physics**: More pronounced wobble effects that feel like real jelly
 
 ## Quick Deploy to Vercel
 
