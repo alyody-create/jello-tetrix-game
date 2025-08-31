@@ -1,0 +1,98 @@
+/* Additional App-specific styles */
+
+.clearing {
+  animation: line-clear 0.5s ease-in-out;
+}
+
+@keyframes line-clear {
+  0% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% { 
+    transform: scale(1.2);
+    opacity: 0.8;
+    filter: brightness(2);
+  }
+  100% { 
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+/* Enhanced mobile responsiveness */
+@media (max-width: 480px) {
+  .game-container {
+    padding: 5px;
+  }
+  
+  .game-grid {
+    width: 200px;
+    height: 400px;
+  }
+  
+  .panel-section {
+    padding: 10px;
+  }
+  
+  .panel-section h3 {
+    font-size: 1em;
+  }
+  
+  .score-display {
+    font-size: 1.4em;
+  }
+}
+
+/* Touch controls for mobile */
+.mobile-controls {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .mobile-controls {
+    display: flex;
+  }
+}
+
+.mobile-control-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: all 0.2s ease;
+}
+
+.mobile-control-btn:active {
+  transform: scale(0.95);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Particle improvements */
+.particle {
+  box-shadow: 0 0 6px currentColor;
+}
+
+/* Game title animation */
+@keyframes title-glow {
+  0%, 100% {
+    text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 30px rgba(255, 215, 0, 0.8), 0 0 40px rgba(255, 215, 0, 0.3);
+  }
+}
+
+.game-container h1 {
+  animation: title-glow 3s ease-in-out infinite;
+}

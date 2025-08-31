@@ -2,6 +2,10 @@
 
 A modern, physics-based Tetris game with jello effects and improved UI. Built with React and designed for free hosting.
 
+## 🚀 **DEPLOYMENT FIXED!**
+
+The previous build error has been resolved. The game is now ready for deployment.
+
 ## Features
 
 - 🎮 Classic Tetris gameplay with modern twists
@@ -19,6 +23,18 @@ A modern, physics-based Tetris game with jello effects and improved UI. Built wi
 - **Space**: Hard drop
 - **R**: Restart game
 - **P**: Pause/Resume
+- **Mobile**: Touch buttons at bottom of screen
+
+## Quick Deploy to Vercel
+
+1. Push your changes to GitHub:
+   ```bash
+   git add .
+   git commit -m "Fixed build configuration"
+   git push
+   ```
+
+2. Vercel will automatically redeploy with the fixes
 
 ## Development
 

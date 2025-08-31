@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100" height="100" fill="url(#grad1)" rx="15"/>
+  
+  <!-- Tetris blocks forming T shape -->
+  <rect x="20" y="30" width="15" height="15" fill="#ffd700" rx="2"/>
+  <rect x="35" y="30" width="15" height="15" fill="#ff6b6b" rx="2"/>
+  <rect x="50" y="30" width="15" height="15" fill="#4ecdc4" rx="2"/>
+  <rect x="35" y="45" width="15" height="15" fill="#98fb98" rx="2"/>
+  
+  <!-- Jello effect lines -->
+  <path d="M25 70 Q35 65 45 70 T65 70" stroke="#fff" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M30 75 Q40 72 50 75 T70 75" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.4"/>
+  
+  <!-- Text -->
+  <text x="50" y="90" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#fff">JELLO</text>
+</svg>
